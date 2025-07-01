@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '2',
-    tituloUnidad: 'Estudio de la relación con el medio',
+    numeroUnidad: '3',
+    tituloUnidad: 'Estudio de los procesos de aprendizaje',
   },
   menuPrincipal: {
     menu: [
@@ -15,14 +15,27 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Teoría del aprendizaje social',
+        titulo: 'Teoría conductista',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Fases del aprendizaje social observacional o vicario',
+            titulo: 'Principios teóricos del conductismo ',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo:
+              'El clásico experimento de Pavlov - El condicionamiento operante de Skinner',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Tipos de conductismo ',
+            hash: 't_1_3',
           },
         ],
       },
@@ -30,38 +43,20 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'La teoría del apego de John Bowlby',
+        titulo: 'Teoría ecológica del aprendizaje',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Liberadores sociales',
+            titulo: 'El ambiente ecológico',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'La monotropía y la afectación del apego en el desarrollo ',
+            titulo: 'Los principios educativos de la teoría de Bronfenbrenner',
             hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Desarrollo del vínculo del apego',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Categorías de apego - Mary Ainsworth',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Alteraciones por apego desorganizado',
-            hash: 't_2_5',
           },
         ],
       },
@@ -69,70 +64,21 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Teoría conductista',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Principios teóricos del conductismo ',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo:
-              'El clásico experimento de Pavlov - El condicionamiento operante de Skinner',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Tipos de conductismo ',
-            hash: 't_3_3',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
-        numero: '4',
-        titulo: 'Teoría ecológica del aprendizaje',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.1',
-            titulo: 'El ambiente ecológico',
-            hash: 't_4_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.2',
-            titulo: 'Los principios educativos de la teoría de Bronfenbrenner',
-            hash: 't_4_2',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
-        numero: '5',
         titulo: 'Perspectiva del ciclo vital',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '5.1',
+            numero: '3.1',
             titulo:
               'Características de la perspectiva teórica del ciclo vital en el ser humano',
-            hash: 't_5_1',
+            hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '5.2',
+            numero: '3.2',
             titulo: 'Principales autores de la perspectiva del ciclo vital',
-            hash: 't_5_2',
+            hash: 't_3_2',
           },
         ],
       },
@@ -222,12 +168,54 @@ export default {
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Ambiente ecológico',
+      significado:
+        'Se refiere al entorno natural en el que se desarrollan las interacciones entre los seres vivos y su medio. Este concepto está estrechamente relacionado con la ecología, que es la rama de la biología que estudia las relaciones entre los organismos vivos y su entorno.',
     },
     {
-      termino: '',
-      significado: '',
+      termino: 'Ciclo vital',
+      significado:
+        'Es un término ampliamente utilizado en biología y otras disciplinas, para describir el proceso de desarrollo y existencia de un organismo desde su nacimiento, hasta su muerte.',
+    },
+    {
+      termino: 'Condicionamiento operante o instrumental',
+      significado:
+        'Es un tipo de aprendizaje asociativo que se basa en la relación entre las conductas y sus consecuencias. Fue desarrollado principalmente por Burrhus Frederic Skinner, aunque el término "instrumental" fue introducido por Edward Thorndike. Este proceso de aprendizaje implica que las conductas seguidas por consecuencias positivas (recompensas), tienen más probabilidad de repetirse, mientras que aquellas seguidas por consecuencias negativas (castigos), disminuyen su frecuencia.',
+    },
+    {
+      termino: 'Conductismo',
+      significado:
+        'También conocido como behaviorismo, es una corriente psicológica que se enfoca en el estudio del comportamiento observable y medible, excluyendo los procesos mentales internos como la conciencia y la introspección.',
+    },
+    {
+      termino: 'Determinismo ambiental',
+      significado:
+        'Es una teoría que sostiene que el entorno físico, incluyendo factores como el clima, los accidentes geográficos y los recursos naturales, influye significativamente en el desarrollo de las sociedades y culturas humanas. Esta teoría se ha desarrollado en diversas disciplinas, incluyendo la antropología y la geografía.',
+    },
+    {
+      termino: 'Desarrollo humano',
+      significado:
+        'El desarrollo humano es un concepto que abarca múltiples dimensiones, incluyendo el bienestar, las capacidades y la libertad de las personas. Se centra en mejorar la calidad de vida y las oportunidades de desarrollo personal y social. Este concepto surgió en la década de 1990 como un enfoque integral para evaluar el bienestar humano en todos los aspectos de la vida.',
+    },
+    {
+      termino: 'Desarrollo psicosocial',
+      significado:
+        'Es un proceso integral que abarca los cambios y adaptaciones psicológicas y sociales que experimentan los individuos a lo largo de su vida. Este proceso está influenciado por factores internos, como la personalidad, y externos, como las relaciones sociales y el entorno cultural.',
+    },
+    {
+      termino: 'Estímulo (ambiental)',
+      significado:
+        'Cualquier factor, ya sea externo o interno, que puede desencadenar una reacción o cambio en un organismo o sistema.',
+    },
+    {
+      termino: 'Teoría ecología del aprendizaje',
+      significado:
+        'Se enfoca en comprender cómo el aprendizaje ocurre en una variedad de contextos y entornos, más allá de la educación formal.',
+    },
+    {
+      termino: 'Objetividad',
+      significado:
+        'Es la cualidad de presentar información o emitir juicios basados en hechos verificables y sin influencia de emociones, prejuicios o interpretaciones personales. Se trata de describir la realidad tal como es, sin adornos ni sesgos subjetivos, lo que la hace fundamental en áreas como la ciencia, el periodismo y la justicia.',
     },
   ],
 }

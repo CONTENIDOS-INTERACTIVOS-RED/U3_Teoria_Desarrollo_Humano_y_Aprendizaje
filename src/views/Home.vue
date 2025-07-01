@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde los primeros meses de vida, los niños y las niñas desarrollan vínculos afectivos y sociales que impactan profundamente su manera de aprender y relacionarse con el mundo. En esta unidad, se exploran dos enfoques fundamentales: la teoría del aprendizaje social de Albert Bandura, que destaca la importancia de la observación e imitación en la conducta, y la teoría del apego de John Bowlby, que resalta el papel de los vínculos tempranos con cuidadores en el desarrollo emocional y cognitivo.
+              p.descripcion.mb-4 Desde diferentes disciplinas como la psicología, la biología y la sociología, se han construido diversas teorías que explican cómo aprenden los seres humanos a lo largo de la vida. Esta unidad aborda las principales perspectivas sobre el aprendizaje humano, tales como la teoría conductista, ecológica y del ciclo vital, resaltando cómo el entorno, las experiencias y los contextos culturales influyen directamente en los procesos educativos y en el desarrollo de habilidades cognitivas, emocionales y sociales.
               
-              p #[b ¡Prepárese para explorar cómo el afecto y la observación, moldean el aprendizaje humano desde la primera infancia!]
+              p #[b ¡Prepárese para reconocer la diversidad de procesos que influyen en el desarrollo humano y potenciar su comprensión del aprendizaje, en contextos reales!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
@@ -106,7 +106,7 @@ export default {
         background-color: $color-acento-botones
         padding: 12px 42px 12px 32px
         width: 100%
-        color: #fff !important
+        color: #000 !important
     .icon
       background-color: $color-sistema-e
       padding: 0px 20px

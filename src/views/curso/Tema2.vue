@@ -137,9 +137,6 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://proyectos.javerianacali.edu.co/cursos_virtuales/posgrado/maestria_asesoria_familiar/familia_contemporanea/modulo1/la-ecologia-del-desarrollo-humano-bronfenbrenner-copia.pdf" target="_blank" rel="noopener noreferrer") Bronfenbrenner, U. (1987). La ecología del desarrollo humano. Experimentos en entornos naturales y diseñados. Ediciones Paidós. 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://publicaciones.unirioja.es/ojs/index.php/contextos/article/view/656/619 " target="_blank" rel="noopener noreferrer") Gifre Monreal, E. & Guitart, M. E. (2012). Consideraciones educativas de la perspectiva ecológica de Urie Bronfenbrenner. Contextos Educativos, 15, (79-92).
 
             p.d-flex.my-4
